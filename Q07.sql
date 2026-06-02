@@ -5,3 +5,4 @@ use northwind;
 
 SELECT * FROM products
 
+WHERE UnitsInStock = 0 AND UnitsOnOrder > 0
